@@ -3,7 +3,8 @@
 /*********** Global Styles********/
 
 body, html {
-		background-color: lightskyblue;
+		background:url('/VijayPortfolio/developer-challenge-portfolio/assets/images/code2.jpg');
+	background-size: contain;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -74,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 #about {
 		margin-top: 10em;
 		border: 1px solid #eee;
-		background-color: white;
+		background-color: papayawhip;
 		padding-bottom: 1em;
 }
 
@@ -129,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fa {
-	font-size: 1.2em;
+	font-size: 1.8em;
 	padding: 0.1em 0.4em;
 }
 .fa-linkedin{
@@ -182,13 +183,14 @@ h1, h2, h3, h4, h5, h6 {
 	list-style: none;
 	color: #bbd2ff;
 	font-family: "Maven pro", sans-serif;
-	font-weight: 500;
+	font-weight: bold;
+	font-size: 1.2em;
 }
 
 /*** work ***/
 #work {
 	padding: 3em 4em 1em;
-	background-color: #fff;
+	background-color: papayawhip;
 }
 
 #work h2 {
@@ -199,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #work .tag-line {
 	color: #767779;
-	font-size: 1.4em;
+	font-size: 2.0em;
 	margin-bottom: 4em;
 }
 
@@ -230,8 +232,9 @@ h1, h2, h3, h4, h5, h6 {
 	color: #738182;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
-	font-size: 1.2em;
-	margin-bottom: 1.8em;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	text-align: justify;
 }
 
 .details a, .details a:link, .details a:active{
@@ -245,6 +248,30 @@ h1, h2, h3, h4, h5, h6 {
 		background-color: rgba(255, 103, 68, 0.91) !important;
 		color: #fff;
 }
+
+
+/*** projects ***/
+#projects {
+	padding: 3em 4em 1em;
+	background-color: lavender;
+}
+
+#projects h2 {
+	color: #FF6945;
+	margin-bottom: .7em;
+}
+
+
+#projects .tag-line {
+	color: #767779;
+	font-size: 2.0em;
+	margin-bottom: 4em;
+}
+
+#projects .work-row {
+	margin-bottom: 5.5em;
+}
+
 
 /*** teaching ***/
 #teaching {
@@ -266,29 +293,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: -4em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: mediumseagreen;
+	background:url("/VijayPortfolio/developer-challenge-portfolio/assets/images/green2.png") ;
+	background-size: cover;
 	padding: 6em 4em 5.6em;
 }
 
@@ -323,6 +331,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer {
 	padding: 2em 4em 2em;
+	background:url("/VijayPortfolio/developer-challenge-portfolio/assets/images/code2.jpg") ;
+	background-size: cover;
 }
 
 #footer #logo {
@@ -334,13 +344,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.6em;
 	font-weight: 500;
 	display: inline;
+
 }
 
 #footer #copyright {
 	margin-top: 1.6em;
 	font-family: "Maven pro", sans-serif;
-	font-weight: 500;
-	color: #7d7d7d;
+	font-weight: bold;
+	color: white;
 }
 
 

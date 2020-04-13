@@ -49,7 +49,7 @@ const Portfolio = function() {
 	// 		}
 	// 	});
 	// }
-
+	//
 	// function designForm() {
 	// 	$("#my-modal form").addClass("my-form");
 	// }
@@ -57,13 +57,16 @@ const Portfolio = function() {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"am a Full-Stack Web Developer.", "and an Automation expert.", "Flexible to both coding and testing", "and am a quick learner."
+				"a Full-Stack Web Developer. ^4000", "An automation expert with Selenium.^4000", "Flexible to both development and testing. ^4000", "A quick learner.^4000"
 			],
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
 			// typing speed
-			typeSpeed: 1,
+			typeSpeed: 0,
+            startDelay:2,
 			contentType: 'text',
+            loop:true,
+            loopCount:Infinity,
 			callback: function() {
 				$("#writing-text").css({"color": "#fff", "background-color": "#C8412B"});
 			},
