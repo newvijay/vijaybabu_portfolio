@@ -3,7 +3,7 @@
 /*********** Global Styles********/
 
 body, html {
-		background:url('/VijayPortfolio/developer-challenge-portfolio/assets/images/code2.jpg');
+		background:url('assets/images/code2.jpg');
 	background-size: contain;
 }
 
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background:url("/VijayPortfolio/developer-challenge-portfolio/assets/images/green2.png") ;
+	background:url("assets/images/green2.png") ;
 	background-size: cover;
 	padding: 6em 4em 5.6em;
 }
