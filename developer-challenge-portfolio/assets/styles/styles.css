@@ -3,7 +3,6 @@
 /*********** Global Styles********/
 
 body, html {
-		background:url('/assets/images/code2.jpg');
 	background-size: contain;
 }
 
@@ -295,7 +294,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background:url("/assets/images/green2.png") ;
 	background-size: cover;
 	padding: 6em 4em 5.6em;
 }
@@ -331,7 +329,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer {
 	padding: 2em 4em 2em;
-	background:url("/assets/images/code2.jpg") ;
 	background-size: cover;
 }
 
